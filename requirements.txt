@@ -1,0 +1,10 @@
+xmltodict
+boto3
+ipdb
+ptpython
+fastparquet
+pyarrow
+s3fs
+lxml
+Deprecated
+openpyxl
