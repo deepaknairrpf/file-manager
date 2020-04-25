@@ -10,4 +10,15 @@ setup(
     author_email='deepak.nair@dataweave.com',
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     license='LICENSE.txt',
+    install_requires=[
+        "boto3",
+        "Deprecated",
+        "fastparquet",
+        "lxml",
+        "openpyxl",
+        "pandas",
+        "pyarrow",
+        "s3fs",
+        "xmltodict"
+    ],
 )
