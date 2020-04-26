@@ -19,6 +19,7 @@ setup(
         "pandas==1.0.3",
         "pyarrow==0.17.0",
         "s3fs==0.4.2",
-        "xmltodict==0.12.0"
+        "xmltodict==0.12.0",
+        "numpy==1.18.3"
     ],
 )
