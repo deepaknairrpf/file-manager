@@ -13,12 +13,12 @@ setup(
     install_requires=[
         "boto3",
         "Deprecated",
-        "fastparquet",
-        "lxml",
-        "openpyxl",
-        "pandas",
-        "pyarrow",
-        "s3fs",
-        "xmltodict"
+        "fastparquet==0.3.3",
+        "lxml==4.5.0",
+        "openpyxl==3.0.3",
+        "pandas==1.0.3",
+        "pyarrow==0.17.0",
+        "s3fs==0.4.2",
+        "xmltodict==0.12.0"
     ],
 )
