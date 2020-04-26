@@ -1,13 +1,18 @@
 import gzip
 import os
+import logging
+logger = logging.getLogger(__name__)
+try:
+    import xmltodict
+    from lxml import etree
+    import pyarrow.parquet as pq
+    import pandas as pd
+    import pyarrow as pa
+    import csv
+    import json
 
-import xmltodict
-from lxml import etree
-import pyarrow.parquet as pq
-import pandas as pd
-import pyarrow as pa
-import csv
-import json
+except ImportError as ie:
+    logger.warning(f'Could not import some dependencies. ', ie)
 
 
 class FileIO:
