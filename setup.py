@@ -20,6 +20,6 @@ setup(
         "pyarrow==0.17.0",
         "s3fs==0.4.2",
         "xmltodict==0.12.0",
-        "numpy==1.18.3"
+        "numpy==1.22.0"
     ],
 )
