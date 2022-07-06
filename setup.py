@@ -14,7 +14,7 @@ setup(
         "boto3",
         "Deprecated",
         "fastparquet==0.3.3",
-        "lxml==4.5.0",
+        "lxml==4.9.1",
         "openpyxl==3.0.3",
         "pandas==1.0.3",
         "pyarrow==0.17.0",
