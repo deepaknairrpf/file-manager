@@ -17,7 +17,7 @@ setup(
         "lxml==4.5.0",
         "openpyxl==3.0.3",
         "pandas==1.0.3",
-        "pyarrow==0.17.0",
+        "pyarrow==14.0.1",
         "s3fs==0.4.2",
         "xmltodict==0.12.0",
         "numpy==1.18.3"
